@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 //import logo from '../logo.svg';
 import logo from '../images/intertech_web_logo.png';
 import '../Styles/App.css';
+import 'semantic-ui-css/semantic.min.css'
 import {Link,Route} from 'react-router-dom';
 import AccountsPage from '../components/pages/AccountsPage'
 class App extends Component {
@@ -16,6 +17,17 @@ class App extends Component {
             <Link to="accounts">Accounts</Link>
           </p>
           <Route path='./accounts' component={AccountsPage}></Route>
+            
+			    <div  className="ui action input">
+                <div className="ui input">
+                    <input id="txtMustNo" onChange = {this.changeMustNo} type="text" placeholder="Must No..."/>  
+                </div>
+                <div className="ui disabled input"> 
+                   <input id="txtNameSurname" type="default" placeholder="Name Surname..."/>
+                   <button className="ui button">Search</button>
+                </div> 
+             </div>  
+             
       </div>
     );
   }
