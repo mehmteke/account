@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import logo from '../logo.svg';
-import logo from '../images/intertech.jpg';
+import logo from '../images/intertech_web_logo.png';
 import '../Styles/App.css';
 import {Link,Route} from 'react-router-dom';
 import AccountsPage from '../components/pages/AccountsPage'
