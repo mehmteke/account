@@ -1,5 +1,30 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to Create React Application
+
+npm, node.js ile birlikte gelmektedir. Yinede son sürümü güncelemek için 
+cmd de 
+
+npm install npm@latest -g çalıştırılabilr.
+npm install -g npm-cache
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+
+Proje başlatmak için  aşağıdaki adımları çalışıtırmak lazım. npm install   denenebilri ilk önce hata alırsa :) 
+
+C:\Users\Kullanıcı\Desktop\React_Account> npm install create-react-app -g
+
+C:\Users\Kullanıcı\Desktop\React_Account>npx create-react-app my-project çalıştırmak lazım. Ama ilk önce klasör oluşturmak lazım.
+ 
+C:\Users\Kullanıcı\Desktop\React_Account>cd my-project
+
+C:\Users\Kullanıcı\Desktop\React_Account\my-project>npm start
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
