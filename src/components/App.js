@@ -4,7 +4,10 @@ import logo from '../images/intertech_web_logo.png';
 import '../Styles/App.css';
 import 'semantic-ui-css/semantic.min.css'
 import {Link,Route} from 'react-router-dom';
-import AccountsPage from '../components/pages/AccountsPage'
+import AccountsPage from '../components/pages/AccountsPage';
+import AccountInfoTest from '../components/AccountInfoTest';
+
+
 class App extends Component {
   render() {
     return (
@@ -18,7 +21,7 @@ class App extends Component {
           </p>
           <Route path='./accounts' component={AccountsPage}></Route>
             
-			    <div  className="ui action input">
+			     {/* <div  className="ui action input">
                 <div className="ui input">
                     <input id="txtMustNo" onChange = {this.changeMustNo} type="text" placeholder="Must No..."/>  
                 </div>
@@ -26,7 +29,9 @@ class App extends Component {
                    <input id="txtNameSurname" type="default" placeholder="Name Surname..."/>
                    <button className="ui button">Search</button>
                 </div> 
-             </div>  
+             </div>   */}
+
+             <AccountInfoTest></AccountInfoTest>
              
       </div>
     );
